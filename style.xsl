@@ -18,7 +18,7 @@
 			<h1>Item List</h1>
 			
 			<table class="list">
-				<tr style="padding: 5px;" >
+				<tr class="headrow">
 					<th colspan="4" class="heading name">Name</th>
 					<th colspan="4" class="heading desc">Description</th>
 					<th class="heading brand">Brand</th>
@@ -28,14 +28,14 @@
 					<th colspan="1" class="heading link"></th>
 				</tr>
 				<xsl:for-each select="catalog/item">
-					<tr> 
+					<tr class="itemrow" ref="{@ref}"> 
 						<td class="item name" colspan="4"  ><xsl:value-of select="name" /></td>
 						<td class="item desc" colspan="4"  ><xsl:copy-of select="concat(substring(data/desc, 1, 30), '...')"/></td>
 						<td class="item brand"><xsl:value-of select="data/brand" /></td>
 						<td class="item quant"><xsl:value-of select="data/quant" /></td>
 						<td class="item loc"><xsl:value-of select="data/loc" /></td>
 						<td class="item id" colspan="1"  ><xsl:value-of select="@ref" /></td>
-						<td class="item link" colspan="1" style="text-align: right;" ><a href="d/{@ref}.xml" >&#x21B7;</a></td>
+						<td class="item link" colspan="1"><a href="d/{@ref}.xml" >&#x21B7;</a></td>
 					</tr>
 				</xsl:for-each>
 			</table>

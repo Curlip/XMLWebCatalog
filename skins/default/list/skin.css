@@ -14,8 +14,16 @@ h1 {
 	margin: 0 auto
 }
 
-.list tr:hover {
+.itemrow:hover {
 	background: #FF8877;
+}
+
+.headrow {
+	padding: 5px;
+}
+
+.item.link {
+	text-align: right;
 }
 
 .heading{

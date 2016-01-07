@@ -13,9 +13,7 @@ $(document).on("touchstart", ".list tr.item", function(){
 });
 
 $(document).on("click touchstart", ".list tr.item.selected", function(){
-  	window.location = $(this).attr("ref"); 
-
-	$(this).addClass('selected').removeClass("selected");
+  	window.location = "d/" + $(this).attr("ref") + ".xml"; 
 
   	return false;
 });

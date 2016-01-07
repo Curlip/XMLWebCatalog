@@ -25,6 +25,14 @@
 	text-align: center;
 }
 
+.headrow {
+	padding: 5px;
+}
+
+.item.link {
+	text-align: right;
+}
+
 h4 {
 	margin-bottom: 4px;
 }
