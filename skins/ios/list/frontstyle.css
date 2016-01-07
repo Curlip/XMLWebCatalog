@@ -1,0 +1,53 @@
+/* Generated with EditiX at Sun Nov 22 14:59:52 UTC 2015 */
+
+h1{
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.list {
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+
+	background: white;
+}
+
+.list tr.selected {
+	background: #007AFF;
+
+	color: white;
+}
+
+.list th{
+	text-align:left;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+
+	padding: 7px;
+
+	border-bottom: 1px solid #ddd;
+}
+
+.list td{
+	padding: 7px;
+
+	border-bottom: 1px solid #ddd;
+
+	font-weight: 300;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.arrow {
+	color: #ddd;
+
+	font-weight: 300;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+	background: #F2F2F2;
+}
+
+a {
+	text-decoration: none;
+}
