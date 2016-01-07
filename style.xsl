@@ -10,6 +10,9 @@
 	<html>
 		<head>
 			<link rel="stylesheet" type="text/css" href="skin.css"   />
+
+			<script src="jquery-1.11.3.min.js"></script>
+			<script src="skin.js"></script>
 		</head>
 		<body>
 			<h1 style="text-align: center;" >Item List</h1>
