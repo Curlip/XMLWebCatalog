@@ -15,9 +15,9 @@
 			<script src="skin.js"></script>
 		</head>
 		<body>
-			<h1 style="text-align: center;" >Item List</h1>
+			<h1>Item List</h1>
 			
-			<table class="list" style="width: 80%; margin: 0 auto"  >
+			<table class="list">
 				<tr style="padding: 5px;" >
 					<th colspan="4"  >Name</th>
 					<th colspan="4"  >Description</th>
