@@ -9,6 +9,9 @@
 	<html>
 		<head>
 			<link rel="stylesheet" type="text/css" href="skin.css"   />
+			
+			<script src="jquery-1.11.3.min.js"></script>
+			<script src="skin.js"></script>
 		</head>
 		<body > 
 			<div id="header" ><h1 ><xsl:value-of select="@ref"/>: <xsl:value-of select="name" /></h1></div>

@@ -1,0 +1,30 @@
+/* Generated with EditiX at Sun Nov 22 14:59:52 UTC 2015 */
+
+h1 {
+	text-align: center;
+}
+
+.list {
+	border-collapse: collapse;
+	border: 2px solid black;
+	
+	background: white;
+
+	width: 80%;
+	margin: 0 auto
+}
+
+.list tr:hover {
+	background: #FF8877;
+}
+
+.heading{
+	background: #FF3439;
+	
+	text-align:left;
+	font-size:20px;
+}
+
+body {
+	background: #FFEAD8;
+}
