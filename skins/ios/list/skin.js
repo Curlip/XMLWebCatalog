@@ -3,17 +3,19 @@ $(document).ready(function(){
 	$(".quant").remove();
 });
 
-$(document).on("click", ".list tr.item", function(){
+$(document).on("click", ".itemrow", function(){
 	$(this).addClass('selected').siblings().removeClass("selected");
 });
 
-$(document).on("touchstart", ".list tr.item", function(){
+$(document).on("touchstart", ".itemrow", function(){
 	window.location = $(this).attr("ref"); 
   	return false;
 });
 
-$(document).on("click touchstart", ".list tr.item.selected", function(){
+$(document).on("click touchstart", ".itemrow.selected", function(){
   	window.location = "d/" + $(this).attr("ref") + ".xml"; 
+
+	$(this).removeClass("selected");
 
   	return false;
 });
