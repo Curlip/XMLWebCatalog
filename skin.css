@@ -1,28 +1,32 @@
 /* Generated with EditiX at Sun Nov 22 14:59:52 UTC 2015 */
 
-h1 {
+#info {
+	background: #FF8888;
+		
+	border-collapse: collapse;
+	border-radius: 5px;
+	border: 2px solid black;
+	
+	width: 65%; 
+	
+	margin-top: 100px; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+#header {
+	background: #FF3439;
+	border: 2px solid black;
+
+	margin:;
+	width:100%;
+	display:inline-block;
+	
 	text-align: center;
 }
 
-.list {
-	border-collapse: collapse;
-	border: 2px solid black;
-	
-	background: white;
-
-	width: 80%;
-	margin: 0 auto
-}
-
-.list tr:hover {
-	background: #FF8877;
-}
-
-.list th{
-	background: #FF3439;
-	
-	text-align:left;
-	font-size:20px;
+h4 {
+	margin-bottom: 4px;
 }
 
 body {
