@@ -1,0 +1,112 @@
+/* Generated with EditiX at Sun Nov 22 14:59:52 UTC 2015 */
+body, html {
+	margin: 0;
+}
+
+p, a, h6, h4 {
+	font-weight: 300;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#layout {
+	width: 100%;
+	height: 100%;
+	max-height: 100%;
+
+	border-collapse: collapse;
+}
+
+.title {
+	height: 40px;
+		
+	border-bottom: 1px solid #CECED2;
+	background: #EFEFEF;
+}
+
+.header {
+	font-weight: bold;
+}
+
+#back {
+	color: #007AFF;
+	text-decoration: none;
+}
+
+.filler {
+	border-right: 1px solid #CECED2;
+
+	width: 25%;
+}
+
+.content.info {
+	vertical-align: top;
+
+	overflow: auto;
+}
+
+.filler.info {
+	vertical-align: top;
+}
+
+.snap {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.snap tr td {
+	width: 33%;
+}
+
+.snap tr td * {
+	padding: 0 5px;
+}
+
+h6 {
+	font-size: 17.5px;
+	margin: 25px;
+	margin-left: 10px;
+}
+
+.section {
+	border-bottom: 1px solid #CECED2;
+	margin-bottom: 4px;
+	margin-left: 7px;
+}
+
+.section .item h4 {
+	margin-bottom: 1px;
+	margin-left: 1px;
+
+	color: #007AFF;
+	font-size: 14px;
+}
+
+.section .item p {
+	margin-top: 1px;
+
+	font-size: 15px;
+}
+
+#nav{
+	margin: 0px;
+	padding: 0px;
+
+	width: 100%;
+	height: 100%;
+}
+
+#nav a {
+	display: block;
+
+	text-decoration: none;
+	color: black;
+
+	padding: 5px;
+
+	border-bottom: 1px solid #CECED2;
+}
+
+#nav a.current {
+	background: #007AFF;
+	color: white;
+}
