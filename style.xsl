@@ -35,7 +35,7 @@
 						<td class="item quant"><xsl:value-of select="data/quant" /></td>
 						<td class="item loc"><xsl:value-of select="data/loc" /></td>
 						<td class="item id" colspan="1"  ><xsl:value-of select="@ref" /></td>
-						<td class="item link" colspan="1"><a href="d/{@ref}.xml" >&#x21B7;</a></td>
+						<td class="item link" colspan="1"><a href="d/{@ref}.html" >&#x21B7;</a></td>
 					</tr>
 				</xsl:for-each>
 			</table>
